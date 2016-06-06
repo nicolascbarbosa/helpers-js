@@ -1,3 +1,4 @@
+var script, scripts = doc.getElementsByTagName('script')[0];
 function loadJS(src, callback){
     script = doc.createElement('script');
     script.async = true;
