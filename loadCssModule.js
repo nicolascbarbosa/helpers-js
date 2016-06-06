@@ -1,3 +1,5 @@
+var link, links = doc.getElementsByTagName('link')[0];
+
 function loadCSS(src){
     link = doc.createElement('link');
     link.type = 'text/css';
